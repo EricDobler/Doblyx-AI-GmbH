@@ -5,13 +5,7 @@
     :items="[{
       label: 'Starter',
       to: 'https://starter-template.nuxt.dev/'
-    // }, {
-    //   label: 'Landing',
-    //   to: 'https://landing-template.nuxt.dev/',
-    //   color: 'primary',
-    //   checked: true,
-    //   type: 'checkbox'
-    // }, {
+    }, {
       label: 'Docs',
       to: 'https://docs-template.nuxt.dev/'
     }, {

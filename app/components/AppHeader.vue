@@ -27,13 +27,17 @@ nuxtApp.hooks.hookOnce('page:finish', () => {
 
 <template>
   <UHeader>
-    <!-- <template #left>
+    <template #left>
       <NuxtLink to="/">
-        <AppLogo class="w-auto h-6 shrink-0" />
+        <NuxtImg
+          src="/images/icon-gmbh.png"
+          alt="Logo"
+          class="w-auto h-auto shrink-0"
+          width="50"
+          height="50"
+        />
       </NuxtLink>
-
-      <TemplateMenu />
-    </template> -->
+    </template>
 
     <template #right>
       <UNavigationMenu
@@ -41,8 +45,6 @@ nuxtApp.hooks.hookOnce('page:finish', () => {
         variant="link"
         class="hidden lg:block"
       />
-
-    
 
       <UColorModeButton />
     </template>
