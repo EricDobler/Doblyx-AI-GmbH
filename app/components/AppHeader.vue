@@ -27,13 +27,13 @@ nuxtApp.hooks.hookOnce('page:finish', () => {
 
 <template>
   <UHeader>
-    <template #left>
+    <!-- <template #left>
       <NuxtLink to="/">
         <AppLogo class="w-auto h-6 shrink-0" />
       </NuxtLink>
 
       <TemplateMenu />
-    </template>
+    </template> -->
 
     <template #right>
       <UNavigationMenu
@@ -42,11 +42,7 @@ nuxtApp.hooks.hookOnce('page:finish', () => {
         class="hidden lg:block"
       />
 
-      <UButton
-        label="Download App"
-        variant="subtle"
-        class="hidden lg:block"
-      />
+    
 
       <UColorModeButton />
     </template>

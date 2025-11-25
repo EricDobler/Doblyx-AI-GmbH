@@ -2,7 +2,7 @@ seo:
   title: Doblyx AI GmbH
   description: Boost your coding productivity with AI-driven insights that tell you when and how to code most efficiently.
 title:  Doblyx AI GmbH 
-description: automatisierte Telefongespräche in echter Sprachqualität
+description: KI-Voice-Agents & Automatisierung für dein Unternehmen
 
 hero:
   links:
@@ -10,16 +10,10 @@ hero:
       icon: i-lucide-arrow-right
       trailing: true
       color: primary
-      to: https://ui.nuxt.com/docs/getting-started/installation/nuxt
+      to: 
       target: _blank
       size: xl
-    - label: Clone on GitHub
-      icon: i-simple-icons-github
-      size: xl
-      color: neutral
-      variant: outline
-      to: https://github.com/nuxt-ui-templates/landing
-      target: _blank
+    
 section:
   title: '[Revolutionize]{.text-primary} your coding experience'
   description: Transform your development workflow with AI-powered insights and personalized productivity optimization.
